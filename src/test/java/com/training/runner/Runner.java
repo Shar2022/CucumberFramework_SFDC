@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin= {"pretty","html:target/cucumber-reports/cucumber.html",
 		                            "json:target/cucumber-reports/cucumber.json"},
-                 features="C:\\Users\\rsank\\Desktop\\WhiteBox_Automation\\CucumberFramework\\resources\\SalesForceGeneric.feature",
+                 features="C:\\Users\\rsank\\eclipse-workspace\\SFDC_CucumberFramework\\resources\\SalesForceGeneric.feature",
                  glue= {"com.training.steps"})
 
 public class Runner {
